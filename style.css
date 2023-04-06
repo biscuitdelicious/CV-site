@@ -1,0 +1,270 @@
+body{
+    background: #BCF4F5;
+}
+
+br{
+    display: block;
+    content: '';
+    margin-top: 8px;
+
+}
+
+.top_page{
+    background: #BCF4F5;
+    position: absolute;
+    top:20px;
+    left:250px;
+}
+
+.title{
+    font-family: Pacifico;
+    font-size:65px;
+    position: relative;
+    top: 50px;
+    right:100px;
+    width: 300px;
+    color: rgb(38, 186, 144, 90%);
+    margin: 0 auto 0 auto;
+}
+
+.about{
+    font-family: Avenir Next LT Pro;
+    font-size: 25px;
+    position: absolute;
+    top:20px;
+    left:700px;
+    width:120px;
+    color: #677DA2;
+    transition: color 0.3s;
+}
+
+.projects{
+    font-family: Avenir Next LT Pro;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    left: 850px;
+    width: 200px;
+    color: rgb(38, 186, 144, 75%);
+    transition: color 0.3s;
+}
+
+
+.projects:hover{
+    color: #677DA2;
+}
+
+.middle_design{
+    position: relative;
+    opacity: 20%;
+    right: 70px;
+    top: 60px;
+    width: 1200;
+    height: 1000;
+    padding-bottom: 80px;
+    padding-left:40px;
+}
+
+.what{
+    font-family: Avenir Next LT Pro;
+    font-size: 25px;
+    color: rgb(38, 186, 144, 85%);
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+.programmer{
+    font-weight:900;
+    color: rgb(38, 166, 144);
+}
+
+.left_cloud{
+    opacity:20%;
+    position:absolute;
+    top:250px;
+    left:40px;
+}
+
+.left_bike{
+    opacity:90%;
+    position: absolute;
+    top:8px;
+    left:40px;
+}
+
+.right_cloud{
+    opacity:20%;
+    position:absolute;
+    top:450px; /* 450px, 4500px for testing */
+    right:90px;
+}
+
+.right_bike{
+    opacity:90%;
+    position:absolute;
+    top:8px;
+    left:40px;
+}
+
+
+.hello_about{
+    position: relative;
+    top:1000px;
+}
+
+.profile_pic{
+    position: absolute;
+    left:600px;
+    top:50px;
+
+}
+
+.about_me{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 450px;
+    text-align: center;
+    font-family: Avenir Next LT Pro;
+    font-size: 24px;
+    color: rgb(38, 186, 144, 95%);
+    padding-bottom: 80px;
+}
+
+.line{
+    position: absolute;
+    top: 450px;
+    left: 700px;
+    font-size: 20px;
+    opacity: 15%;
+}
+
+.my_abilities{
+    position: absolute;
+    top: 550px;
+    left: 640px;
+    font-family: Avenir Next LT Pro;
+    font-size: 34px;
+    color: rgb(38, 166, 144, 95%);
+}
+
+.skills{
+    position: absolute;
+    top: 650px;
+    left: 300px;
+    font-family: Avenir Next LT Pro;
+    font-size: 22px;
+    color: rgb(38, 186, 144);
+    width: 400px;
+    text-align: center;
+}
+.learn{
+    position: absolute;
+    left:430px;
+    opacity:50%;
+    top: 30px;
+}
+
+.goals{
+    position: absolute;
+    opacity: 50%;
+    left: 300px;
+    top: 210px;
+}
+
+.goal{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    width: 400px;
+}
+
+.learn_title{
+    font-size: 26px;
+    color: rgb(38, 166, 144, 95%);
+    background: rgb(82, 88, 72, .04);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.goal_title{
+    font-size: 26px;
+    position: absolute;
+    left:400px;
+    width:200px;
+    color: rgb(38, 166, 144, 95%);
+    background: rgb(82, 88, 72, .04);
+    border-radius: 8px;
+    padding: 5px;
+    width: 380px;
+}
+
+.communication{
+    opacity:55%;
+    position: absolute;
+    top: 420px;
+    left: 400px;
+}
+
+.communication_title{
+    font-size: 26px;
+    position: absolute;
+    color: rgb(38, 166, 144, 95%);
+    top:380px;
+    left: 30px;
+    background: rgb(82, 88, 72, .04);
+    border-radius: 8px;
+    padding: 5px;
+    width:350px;
+
+}
+
+.communications{
+    position: absolute;
+    top: 450px;
+    left: 5px;
+    width: 400px;
+}
+
+.line2{
+    position: absolute;
+    top: 680px;
+    left: 400px;
+    font-size: 16px;
+    width: 100px;
+    opacity: 15%;
+    color: black;
+}
+
+.help{
+    font-size: 22px;
+    position: absolute;
+    top: 780px;
+    left: 180px;
+    width: 550px;
+
+}
+
+.help_title{
+    font-size: 34px;
+    color: rgb(38, 166, 144, 95%);
+}
+
+
+.get_in_touch{
+    color: rgb(255, 255, 255, 90%);
+    background: rgb(38, 166, 144, 70%);
+    border-radius: 10px;
+    padding: 8px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+a{
+      text-decoration: none;
+      color: inherit;
+}
